@@ -1,0 +1,47 @@
+{
+    "projects": [
+      {
+        "title": "My Recipes",
+        "description": "An ASP.NET Core MVC web app using an SQL database and styled with Bootstrap. Users can create collections and edit/delete their own recipes. Admin users can approve new users and edit/delete any recipe.",
+        "gitHubURL": "https://github.com/AkivaKn/my-recipes",
+        "projectURL": "https://vimeo.com/975291430?share=copy",
+        "imageURL": "/images/my-recipes.png"
+      },
+      {
+        "title": "What You Looking App?",
+        "description": "A React Native app using ViroReact Augmented Reality technology to display nearby points of interest on a live camera feed.",
+        "gitHubURL": "https://github.com/AkivaKn/what-you-looking-app",
+        "projectURL": "https://northcoders.com/project-phase/what-you-looking-app",
+        "imageURL": "/images/what_you_looking_app.png"
+      },
+      {
+        "title": "News Now",
+        "description": "A React Reddit style news website making use of an Express.js API and styling components for styling.",
+        "gitHubURL": "https://github.com/AkivaKn/nc-news",
+        "projectURL": "https://clever-florentine-559ede.netlify.app/",
+        "imageURL": "/images/news-frontend.png"
+      },
+      {
+        "title": "News Now API",
+        "description": "A PSQL database project using Express.js to access endpoints and retrieve data.",
+        "gitHubURL": "https://github.com/AkivaKn/be-nc-news",
+        "projectURL": "https://news-now.onrender.com/",
+        "imageURL": "/images/news-now.png"
+      },
+      {
+        "title": "Hangman Game",
+        "description": "A React hangman app using a word game API and Vanilla CSS for styling.",
+        "gitHubURL": "https://github.com/AkivaKn/hangman-game",
+        "projectURL": "https://hangman-shenanigans.netlify.app/",
+        "imageURL": "/images/hangman.png"
+      },
+      {
+        "title": "JavaScript Calculator",
+        "description": "A simple JavaScript/HTML calculator using CSS to style and animate.",
+        "gitHubURL": "https://github.com/AkivaKn/javascript-calculator",
+        "projectURL": "https://javascript-calculator-otz6.onrender.com/",
+        "imageURL": "/images/calculator.png"
+      }
+    ]
+  }
+  
