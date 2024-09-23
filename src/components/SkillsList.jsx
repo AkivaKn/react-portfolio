@@ -23,8 +23,8 @@ import Skill from "./Skill";
 
 export default function SkillsList() {
   return (
-    <div className="">
-      <h2>Skills:</h2>
+    <div className="w-1/3">
+      <h3>My Skills</h3>
       <div className="grid grid-cols-3 place-items-center">
         <Skill icon={<IoLogoJavascript />} name='JavaScript' />
         <Skill icon={<FaHtml5 />} name='HTML'/>
