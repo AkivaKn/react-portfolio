@@ -1,9 +1,9 @@
 import ProjectCard from "./ProjectCard";
 import { projects } from "../assets/projects/projects.json";
 export default function ProjectsList() {
-  console.log(projects);
   return (
-    <div>
+    <div className="w-full" id="projects">
+      <div className="w-full h-14"></div>
       <h2>Projects</h2>
       <ul>
         {projects.map((project, index) => {
