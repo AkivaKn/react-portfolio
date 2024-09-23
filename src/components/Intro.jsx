@@ -3,7 +3,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Intro() {
   return (
-    <div className="h-[80vh] w-screen flex flex-col justify-center items-center">
+    <div className="h-screen w-screen flex flex-col justify-center items-center">
       <h1>Hi, I&apos;m Akiva</h1>
       <h2>Junior Software Developer</h2>
       <div className="flex">
