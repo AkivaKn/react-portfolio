@@ -29,7 +29,7 @@ export default function DesktopNavbar() {
           </a>
         </nav>
 
-        <div className="h-1/5 py-2 text-white bg-gray-900 flex">
+        <div className="h-1/5 py-2 text-white bg-gray-900 flex flex-col justify-center">
           <SkillsCarousel />
         </div>
       </div>
