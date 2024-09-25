@@ -3,11 +3,12 @@ import { MdEmail } from "react-icons/md";
 
 export default function Intro() {
   return (
-    <div className="w-full flex flex-col justify-center items-center" id="intro">
-      <div className="w-full h-14"></div>
-      <h1>Hi, I&apos;m Akiva</h1>
-      <h2>Junior Software Developer</h2>
-      <div className="flex">
+    <div className="w-full max-md:h-screen flex flex-col justify-center items-center" id="intro">
+      <div className="w-full h-20 md:hidden"></div>
+      <img src="/images/profile-pic.jpg" alt="profile picture" className="rounded-full h-48 md:h-24 w-48 md:w-24 my-4 md:my-2"/>
+      <h1 className="text-2xl md:text-lg my-2 md:my-0">Hi, I&apos;m Akiva</h1>
+      <h2 className="text-xl md:text-base my-4 md:my-1 text-center">Junior Software Developer</h2>
+      <div className="flex text-4xl md:text-2xl my-4 md:my-1 gap-4">
         <a href="https://github.com/AkivaKn" target="blank">
           <FaGithub />
         </a>
@@ -18,7 +19,7 @@ export default function Intro() {
           <MdEmail />
         </a>
       </div>
-      <p>
+      <p className="text-lg mx-10 text-center md:hidden">
         I have a passion for quality code, and enjoy constantly expanding my
         skills.
       </p>

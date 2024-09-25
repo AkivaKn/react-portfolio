@@ -8,7 +8,7 @@ import { useState } from "react";
 function App() {
   const [showMobileMenu,setShowMobileMenu] = useState(false)
   return (
-    <div className="flex flex-col lg:flex-row w-screen">
+    <div className="flex flex-col md:flex-row w-screen">
       <DesktopNavbar />
       <MobileHeader setShowMobileMenu={setShowMobileMenu} showMobileMenu={showMobileMenu}/>
       {showMobileMenu &&
@@ -16,7 +16,7 @@ function App() {
           <MobileMenu setShowMobileMenu={setShowMobileMenu}/>
         </div>
       }
-      <div className="w-full lg:w-3/4">
+      <div className="w-full md:w-3/4 font-poppins">
         <Home />
       </div>
     </div>

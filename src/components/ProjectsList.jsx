@@ -3,7 +3,7 @@ import { projects } from "../assets/projects/projects.json";
 export default function ProjectsList() {
   return (
     <div className="w-full" id="projects">
-      <div className="w-full h-14"></div>
+      <div className="w-full h-20 md:hidden"></div>
       <h2>Projects</h2>
       <ul>
         {projects.map((project, index) => {

@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 export default function Contact() {
     return (
       <div className="w-full" id="contact">
-      <div className="w-full h-14"></div>
+      <div className="w-full h-20 md:hidden"></div>
             <p>Let&apos;s connect!</p>
             <div className="flex">
         <a href="https://github.com/AkivaKn" target="blank">
