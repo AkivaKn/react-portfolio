@@ -12,7 +12,7 @@ function App() {
       <DesktopNavbar />
       <MobileHeader setShowMobileMenu={setShowMobileMenu} showMobileMenu={showMobileMenu}/>
       {showMobileMenu &&
-        <div className="fixed bg-gray-300 w-full inset-x-0 top-14">
+        <div className="fixed bg-gray-300 w-full inset-x-0 top-24">
           <MobileMenu setShowMobileMenu={setShowMobileMenu}/>
         </div>
       }

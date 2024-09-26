@@ -1,46 +1,58 @@
 {
     "projects": [
       {
+        "projectType": "PERSONAL PROJECT",
         "title": "My Recipes",
         "description": "An ASP.NET Core MVC web app using an SQL database and styled with Bootstrap. Users can create collections and edit/delete their own recipes. Admin users can approve new users and edit/delete any recipe.",
         "gitHubURL": "https://github.com/AkivaKn/my-recipes",
         "projectURL": "https://vimeo.com/975291430?share=copy",
-        "imageURL": "/images/my-recipes.png"
+        "imageURL": "/images/my-recipes.png",
+        "skills": ["ASP.NET", "C#","Bootstrap","Azure","SQL"]
       },
       {
+        "projectType": "TEAM PROJECT",
         "title": "What You Looking App?",
         "description": "A React Native app using ViroReact Augmented Reality technology to display nearby points of interest on a live camera feed.",
         "gitHubURL": "https://github.com/AkivaKn/what-you-looking-app",
         "projectURL": "https://northcoders.com/project-phase/what-you-looking-app",
-        "imageURL": "/images/what_you_looking_app.png"
+        "imageURL": "/images/what_you_looking_app.png",
+        "skills": ["React Native", "JavaScript","CSS","TypeScript","ViroReact"]
       },
       {
+        "projectType": "PERSONAL PROJECT",
         "title": "News Now",
         "description": "A React Reddit style news website making use of an Express.js API and styling components for styling.",
         "gitHubURL": "https://github.com/AkivaKn/nc-news",
         "projectURL": "https://clever-florentine-559ede.netlify.app/",
-        "imageURL": "/images/news-frontend.png"
+        "imageURL": "/images/news-frontend.png",
+        "skills": ["React", "JavaScript","CSS","Axios"]
       },
       {
+        "projectType": "PERSONAL PROJECT",
         "title": "News Now API",
         "description": "A PSQL database project using Express.js to access endpoints and retrieve data.",
         "gitHubURL": "https://github.com/AkivaKn/be-nc-news",
         "projectURL": "https://news-now.onrender.com/",
-        "imageURL": "/images/news-now.png"
+        "imageURL": "/images/news-now.png",
+        "skills": ["Node.js", "JavaScript","Express.js","PostgreSQL"]
       },
       {
+        "projectType": "PERSONAL PROJECT",
         "title": "Hangman Game",
         "description": "A React hangman app using a word game API and Vanilla CSS for styling.",
         "gitHubURL": "https://github.com/AkivaKn/hangman-game",
         "projectURL": "https://hangman-shenanigans.netlify.app/",
-        "imageURL": "/images/hangman.png"
+        "imageURL": "/images/hangman.png",
+        "skills": ["React", "JavaScript","CSS"]
       },
       {
+        "projectType": "PERSONAL PROJECT",
         "title": "JavaScript Calculator",
         "description": "A simple JavaScript/HTML calculator using CSS to style and animate.",
         "gitHubURL": "https://github.com/AkivaKn/javascript-calculator",
         "projectURL": "https://javascript-calculator-otz6.onrender.com/",
-        "imageURL": "/images/calculator.png"
+        "imageURL": "/images/calculator.png",
+        "skills": ["JavaScript", "HTML","CSS"]
       }
     ]
   }
