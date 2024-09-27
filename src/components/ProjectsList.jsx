@@ -2,9 +2,9 @@ import ProjectCard from "./ProjectCard";
 import { projects } from "../assets/projects/projects.json";
 export default function ProjectsList() {
   return (
-    <div className="w-full px-10" id="projects">
+    <div className="w-full md:px-10 p-5 max-md:-mt-24" id="projects">
       <div className="w-full h-24 md:hidden"></div>
-      <h2 className="text-4xl font-extrabold text-gray-800 mb-8">Projects</h2>
+      <h2 className="md:text-4xl text-xl font-extrabold text-gray-800 mb-10">Projects</h2>
       <ul>
         {projects.map((project, index) => {
           return (

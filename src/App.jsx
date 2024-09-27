@@ -16,7 +16,7 @@ function App() {
           <MobileMenu setShowMobileMenu={setShowMobileMenu}/>
         </div>
       }
-      <div className="w-full md:w-3/4 font-poppins">
+      <div className="w-full md:w-4/5 font-poppins">
         <Home />
       </div>
     </div>
