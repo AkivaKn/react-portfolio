@@ -15,6 +15,7 @@ export default function ProjectsList() {
               skills={project.skills}
               description={project.description}
               imageURL={project.imageURL}
+              projectId={project.projectId}
             />
           );
         })}

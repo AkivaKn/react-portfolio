@@ -1,9 +1,12 @@
+import { Link } from "react-router-dom";
+
 export default function ProjectCard({
   projectType,
   title,
   skills,
   description,
-  imageURL,
+    imageURL,
+  projectId
 }) {
   return (
     <li className="flex max-md:flex-col justify-between text-gray-800 mb-10 pb-10 border-b-2 border-gray-500">
@@ -16,8 +19,8 @@ export default function ProjectCard({
           })}
         </div>
         <p className="md:text-lg text-sm text-gray-800 leading-relaxed md:mb-4 mb-2">{description}</p>
-        <a
-          href="#_"
+        <Link
+          to={`/projects/${projectId}`}
           className="relative inline-block px-4 py-2 font-medium group self-start md:mb-4 mb-2"
         >
           <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-gray-900 group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
@@ -25,7 +28,7 @@ export default function ProjectCard({
           <span className="relative text-gray-900 group-hover:text-white">
             View project
           </span>
-        </a>
+        </Link>
       </div>
       <img src={imageURL} className="h-72 w-72" alt="image" />
     </li>
