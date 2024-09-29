@@ -3,6 +3,7 @@ import "react-multi-carousel/lib/styles.css";
 import Skill from "./Skill";
 import { BiLogoPostgresql } from "react-icons/bi";
 import {
+  FaBootstrap,
   FaCss3Alt,
   FaDatabase,
   FaHtml5,
@@ -20,6 +21,8 @@ import {
   SiMicrosoftazure,
   SiNetlify,
   SiRender,
+  SiTailwindcss,
+  SiTypescript,
   SiVercel,
 } from "react-icons/si";
 
@@ -45,6 +48,7 @@ export default function SkillsCarousel() {
       arrows={false}
     >
       <Skill icon={<IoLogoJavascript />} name="JavaScript" />
+      <Skill icon={<SiTypescript/>} name={"TypeScript"}/>
       <Skill icon={<FaHtml5 />} name="HTML" />
       <Skill icon={<FaCss3Alt />} name="CSS" />
       <Skill icon={<SiCsharp />} name="C#" />
@@ -54,6 +58,8 @@ export default function SkillsCarousel() {
       <Skill icon={<SiFlutter />} name="Flutter" />
       <Skill icon={<RiNextjsFill />} name="Next.js" />
       <Skill icon={<SiDotnet />} name="ASP.NET" />
+      <Skill icon={<SiTailwindcss />} name="Tailwind CSS" />
+      <Skill icon={<FaBootstrap/>} name="Bootstrap"/>
       <Skill icon={<FaNodeJs />} name="Node.js" />
       <Skill icon={<BiLogoPostgresql />} name="PSQL" />
       <Skill icon={<FaDatabase />} name="SQL" />

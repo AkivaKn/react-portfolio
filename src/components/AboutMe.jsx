@@ -2,6 +2,7 @@ import SkillsCard from "./SkillsCard";
 import { useEffect, useState } from "react";
 import { BiLogoPostgresql } from "react-icons/bi";
 import {
+  FaBootstrap,
   FaCss3Alt,
   FaDatabase,
   FaHtml5,
@@ -19,6 +20,8 @@ import {
   SiMicrosoftazure,
   SiNetlify,
   SiRender,
+  SiTailwindcss,
+  SiTypescript,
   SiVercel,
 } from "react-icons/si";
 
@@ -28,6 +31,7 @@ export default function AboutMe() {
       title: "Languages",
       skills: [
         { name: "JavaScript", icon: <IoLogoJavascript /> },
+        { name: "TypeScript", icon: <SiTypescript /> },
         { name: "HTML", icon: <FaHtml5 /> },
         { name: "CSS", icon: <FaCss3Alt /> },
         { name: "C#", icon: <SiCsharp /> },
@@ -42,6 +46,8 @@ export default function AboutMe() {
         { name: "Flutter", icon: <SiFlutter /> },
         { name: "Next.js", icon: <RiNextjsFill /> },
         { name: "ASP.NET", icon: <SiDotnet /> },
+        { name: "Tailwind CSS", icon: <SiTailwindcss /> },
+        { name: "Bootstrap", icon: <FaBootstrap /> },
       ],
     },
     {
@@ -87,8 +93,8 @@ export default function AboutMe() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col max-md:-mt-24" id="about-me">
-      <div className="w-full min-h-24 md:hidden"></div>
+    <div className="min-h-screen flex flex-col max-md:-mt-20" id="about-me">
+      <div className="w-full min-h-20 md:hidden"></div>
       <div className="flex flex-col min-h-[calc(100vh-96px)] justify-between w-full md:p-10 p-5">
         <h2 className="md:text-4xl text-xl font-extrabold text-gray-800 md:mb-5 mb-2">
           About Me

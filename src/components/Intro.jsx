@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 export default function Intro() {
   return (
     <div className="w-full max-md:h-screen flex flex-col justify-center items-center" id="intro">
-      <div className="w-full min-h-24 md:hidden"></div>
+      <div className="w-full min-h-20 md:hidden"></div>
       <img src="/images/profile.jpg" alt="profile picture" className="rounded-full h-40 md:h-24 w-40 md:w-24 md:my-2 object-cover"/>
       <h1 className="text-2xl md:text-lg my-1 md:my-0">Hi, I&apos;m Akiva</h1>
       <h2 className="text-xl md:text-base my-1 text-center">Junior Software Developer</h2>
