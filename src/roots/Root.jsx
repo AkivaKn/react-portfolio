@@ -16,7 +16,7 @@ export default function Route() {
         showMobileMenu={showMobileMenu}
       />
       {showMobileMenu && (
-        <div className="fixed bg-gray-300 w-full inset-x-0 top-20">
+        <div className="fixed w-full inset-x-0 top-20">
           <MobileMenu setShowMobileMenu={setShowMobileMenu} />
         </div>
       )}
