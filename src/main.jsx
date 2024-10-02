@@ -9,25 +9,10 @@ import Route from "./roots/Root";
 import Home from "./components/Home";
 import "./App.css";
 import ProjectDetails from "./components/ProjectDetails";
+import App from "./App";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Route />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/projects/:projectId",
-        element: <ProjectDetails/>
-      }
-    ],
-  },
-]);
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-      <RouterProvider router={router} />
+      <App />
   </StrictMode>
 );

@@ -102,7 +102,7 @@ export default function AboutMe() {
 
         <p className="md:text-lg text-sm text-gray-800 leading-relaxed mb-2">
           I&apos;ve always loved creating things and have a natural draw to
-          problem-solving, especially when it involves technology. After
+          problem solving, especially when it involves technology. After
           discovering a passion for coding, I took the leap and enrolled in a
           Software Development bootcamp, an experience I thoroughly enjoyed.
           Since graduating, I&apos;ve been committed to growing my skills,

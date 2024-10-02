@@ -16,6 +16,8 @@ export default function ProjectsList() {
               description={project.description}
               imageURL={project.imageURL}
               projectId={project.projectId}
+              gitHubURL={project.gitHubURL}
+              projectURL={project.projectURL}
             />
           );
         })}
