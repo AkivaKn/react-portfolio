@@ -4,21 +4,35 @@ export default function MobileMenu({ setShowMobileMenu }) {
   };
 
   return (
-    <div className="w-full flex justify-end text-center">
-      <nav className="flex flex-col w-1/2 bg-gray-300 relative">
-        <a href="#intro" onClick={closeMenu}>
-          Home
-        </a>
-        <a href="#about-me" onClick={closeMenu}>
-          About me
-        </a>
-        <a href="#portfolio" onClick={closeMenu}>
-          Portfolio
-        </a>
-        <a href="#contact" onClick={closeMenu}>
-          Contact
-        </a>
-      </nav>
-    </div>
+    <nav className="flex flex-col w-full bg-gray-800 text-center space-y-3 justify-center py-3">
+      <a
+        href="#intro"
+        onClick={closeMenu}
+        className="text-white text-lg font-medium"
+      >
+        Home
+      </a>
+      <a
+        href="#about"
+        onClick={closeMenu}
+        className="text-white text-lg font-medium"
+      >
+        About
+      </a>
+      <a
+        href="#projects"
+        onClick={closeMenu}
+        className="text-white text-lg font-medium"
+      >
+        Projects
+      </a>
+      <a
+        href="#contact"
+        onClick={closeMenu}
+        className="text-white text-lg font-medium"
+      >
+        Contact
+      </a>
+    </nav>
   );
 }

@@ -45,7 +45,7 @@ export default function ContactForm() {
     <div className="w-full flex flex-col items-center">
       <p className="mb-4">Alternatively, send me a message</p>
       <div className="w-3/4 md:max-w-lg">
-        <form onSubmit={submitEmail} className="flex flex-col">
+        <form onSubmit={submitEmail} className="flex flex-col" noValidate>
           <div className="relative mb-1">
             <input
               type="text"
@@ -120,7 +120,7 @@ export default function ContactForm() {
           <div className="flex justify-center mt-4 mb-1">
             <button
               type="submit"
-              className="relative inline-block px-4 py-2 font-medium group self-start md:mb-4 mb-2"
+              className="relative inline-block md:px-4 px-2 md:py-2 py-1 font-medium group self-start md:mb-4 mb-2 md:text-xl text-lg"
             >
               <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-gray-900 group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
               <span className="absolute inset-0 w-full h-full bg-white border-2 border-gray-900 group-hover:bg-black"></span>
@@ -129,11 +129,11 @@ export default function ContactForm() {
               </span>
             </button>
           </div>
-          {errors.server && (
+          {errors.serverError && (
             <ErrorAlert
               errors={errors}
               setErrors={setErrors}
-              errorKey={"server"}
+              errorKey={"serverError"}
             />
           )}
         </form>

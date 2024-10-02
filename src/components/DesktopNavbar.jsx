@@ -8,18 +8,18 @@ export default function DesktopNavbar() {
         <div className="h-2/5 flex items-center justify-center text-white bg-gray-900">
           <Intro />
         </div>
-        <nav className="flex flex-col h-2/5 items-center justify-center space-y-6 relative">
+        <nav className="flex flex-col h-2/5 items-center justify-center space-y-6">
           <a
-            href="#about-me"
+            href="#about"
             className="text-white text-lg font-medium hover:text-yellow-400 transition-all"
           >
-            About me
+            About
           </a>
           <a
-            href="#portfolio"
+            href="#projects"
             className="peer text-white text-lg font-medium hover:text-yellow-400 transition-all"
           >
-            Portfolio
+            Projects
           </a>
           <a
             href="#contact"

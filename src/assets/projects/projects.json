@@ -6,74 +6,58 @@
       "title": "Job Tracker",
       "description": "Job Tracker allows job seekers to easily stay organised with their job search. Users can track applications, update and save details such as interview dates and job sites, and track the application status. Users can also search saved applications by job title or company name. The app is built in Flutter (Dart), using Hive for local storage. and published as an Android app on Google Play Store.",
       "projectURL": "https://play.google.com/store/apps/details?id=com.job_application_tracker",
-      "imageURL": "/images/my-recipes.png",
-      "skills": ["Flutter", "Dart", "Hive"]
-    },
-    {
-      "projectId": 1,
-      "projectType": "PERSONAL PROJECT",
-      "title": "My Recipes",
-      "description": "An ASP.NET Core MVC web app using an SQL database and styled with Bootstrap. Users can create collections and edit/delete their own recipes. Admin users can approve new users and edit/delete any recipe.",
-      "extendedDescription": ["An ASP.NET Core MVC web app using an SQL database and styled with Bootstrap. Users can create collections and edit/delete their own recipes. Admin users can approve new users and edit/delete any recipe."],
-      "gitHubURL": "https://github.com/AkivaKn/my-recipes",
-      "projectURL": "https://vimeo.com/975291430?share=copy",
-      "imageURL": "/images/my-recipes.png",
-      "skills": ["ASP.NET", "C#", "Bootstrap", "Azure", "SQL"]
+      "imageURL": "/images/job-tracker.jpg",
+      "skills": ["Dart", "Flutter", "Hive"]
     },
     {
       "projectId": 2,
       "projectType": "TEAM PROJECT",
-      "title": "What You Looking App?",
-      "description": "A React Native app using ViroReact Augmented Reality technology to display nearby points of interest on a live camera feed.",
-      "extendedDescription": ["A React Native app using ViroReact Augmented Reality technology to display nearby points of interest on a live camera feed."],
-      "gitHubURL": "https://github.com/AkivaKn/what-you-looking-app",
-      "projectURL": "https://northcoders.com/project-phase/what-you-looking-app",
-      "imageURL": "/images/what_you_looking_app.png",
-      "skills": ["React Native", "JavaScript", "CSS", "TypeScript", "ViroReact"]
+      "title": "Where to Go",
+      "description": "Where to Go enables users to easily search for and organise travel itineraries based on their preferences. Users can share and explore itineraries, comment and vote on trips, and filter by budget, location, or trip length. The app is built with Next.js and styled using TailwindCSS, utilising Vercel Postgres and Vercel Blob for storage. The live site is hosted on Vercel.",
+      "projectURL": "https://travel-app-vert-five.vercel.app/",
+      "gitHubURL": "https://github.com/AkivaKn/travel_app",
+      "demoURL": "https://youtu.be/KovFLKyPz5Y",
+      "imageURL": "/images/where-to-go.jpg",
+      "skills": ["JavaScript", "Next.js", "TailwindCSS", "PSQL", "Vercel"]
     },
     {
       "projectId": 3,
       "projectType": "PERSONAL PROJECT",
-      "title": "News Now",
-      "description": "A React Reddit style news website making use of an Express.js API and styling components for styling.",
-      "extendedDescription": ["A React Reddit style news website making use of an Express.js API and styling components for styling."],
-      "gitHubURL": "https://github.com/AkivaKn/nc-news",
-      "projectURL": "https://clever-florentine-559ede.netlify.app/",
-      "imageURL": "/images/news-frontend.png",
-      "skills": ["React", "JavaScript", "CSS", "Axios"]
+      "title": "My Recipes",
+      "description": "I created this recipe app to organise my family's recipes, allowing easy searching and filtering with categories and custom collections. JQuery was used to manipulate data client-side, to enable copy/paste of ingredients and instructions from a word document. The app was built in ASP.NET using Bootstrap for styling, an SQL database and Azure for hosting. ",
+      "extendedDescription": [
+        "An ASP.NET Core MVC web app using an SQL database and styled with Bootstrap. Users can create collections and edit/delete their own recipes. Admin users can approve new users and edit/delete any recipe."
+      ],
+      "gitHubURL": "https://github.com/AkivaKn/my-recipes",
+      "demoURL": "https://vimeo.com/975291430?share=copy",
+      "imageURL": "/images/my-recipes.jpg",
+      "skills": ["C#", "ASP.NET", "Bootstrap", "Azure", "SQL"]
     },
     {
       "projectId": 4,
-      "projectType": "PERSONAL PROJECT",
-      "title": "News Now API",
-      "description": "A PSQL database project using Express.js to access endpoints and retrieve data.",
-      "extendedDescription": ["A PSQL database project using Express.js to access endpoints and retrieve data."],
-      "gitHubURL": "https://github.com/AkivaKn/be-nc-news",
-      "projectURL": "https://news-now.onrender.com/",
-      "imageURL": "/images/news-now.png",
-      "skills": ["Node.js", "JavaScript", "Express.js", "PostgreSQL"]
+      "projectType": "TEAM PROJECT",
+      "title": "What You Looking App?",
+      "description": "What You Looking App? makes exploring fun and informative, allowing users to scan their surroundings with their camera feed and see points of interest (POIs) in Augmented Reality. Users can save POIs, as well as see further imformation such as distance, ratings and reviews. The app was built in React Native (TypeScript), using ViroReact to integrate Augmented Reality.",
+      "extendedDescription": [
+        "A React Native app using ViroReact Augmented Reality technology to display nearby points of interest on a live camera feed."
+      ],
+      "gitHubURL": "https://github.com/AkivaKn/what-you-looking-app",
+      "demoURL": "https://northcoders.com/project-phase/what-you-looking-app",
+      "imageURL": "/images/what_you_looking_app.png",
+      "skills": ["JavaScript", "CSS", "TypeScript", "React Native", "ViroReact"]
     },
     {
       "projectId": 5,
       "projectType": "PERSONAL PROJECT",
-      "title": "Hangman Game",
-      "description": "A React hangman app using a word game API and Vanilla CSS for styling.",
-      "extendedDescription": ["A React hangman app using a word game API and Vanilla CSS for styling."],
-      "gitHubURL": "https://github.com/AkivaKn/hangman-game",
-      "projectURL": "https://hangman-shenanigans.netlify.app/",
-      "imageURL": "/images/hangman.png",
-      "skills": ["React", "JavaScript", "CSS"]
-    },
-    {
-      "projectId": 6,
-      "projectType": "PERSONAL PROJECT",
-      "title": "JavaScript Calculator",
-      "description": "A simple JavaScript/HTML calculator using CSS to style and animate.",
-      "extendedDescription": ["A simple JavaScript/HTML calculator using CSS to style and animate."],
-      "gitHubURL": "https://github.com/AkivaKn/javascript-calculator",
-      "projectURL": "https://javascript-calculator-otz6.onrender.com/",
-      "imageURL": "/images/calculator.png",
-      "skills": ["JavaScript", "HTML", "CSS"]
+      "title": "News Now",
+      "description": "This Reddit style news website makes use of an Express.js API to retrieve and modify data. Users can filter articles, and vote and comment on individual articles. The front-end was built with React and styled with styling components.",
+      "extendedDescription": [
+        "This Reddit style news website makes use of an Express.js API to retrieve and modify data. Users can filter articles, and vote and comment on individual articles. The front-end was built with React and styled with styling components."
+      ],
+      "gitHubURL": "https://github.com/AkivaKn/nc-news",
+      "projectURL": "https://clever-florentine-559ede.netlify.app/",
+      "imageURL": "/images/news-now.jpg",
+      "skills": ["React", "JavaScript", "CSS", "Node.js","Express.js","PSQL", "Axios"]
     }
   ]
 }

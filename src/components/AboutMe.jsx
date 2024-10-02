@@ -93,11 +93,11 @@ export default function AboutMe() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col max-md:-mt-20" id="about-me">
+    <div className="min-h-screen flex flex-col max-md:-mt-20" id="about">
       <div className="w-full min-h-20 md:hidden"></div>
       <div className="flex flex-col min-h-[calc(100vh-96px)] justify-between w-full md:p-10 p-5">
         <h2 className="md:text-4xl text-xl font-extrabold text-gray-800 md:mb-5 mb-2">
-          About Me
+          About
         </h2>
 
         <p className="md:text-lg text-sm text-gray-800 leading-relaxed mb-2">
@@ -111,15 +111,13 @@ export default function AboutMe() {
           project, troubleshooting a bug, or building an API, I&apos;m always
           ready for a new challenge.
         </p>
-
-        <div className="justify-center items-center mb-2">
+        <div className="justify-center items-center mb-4">
           <SkillsCard skillSet={skillsData[currentSkillSet]} />
         </div>
-
         <div className="text-center">
           <button
             onClick={onDownloadClick}
-            className="relative inline-block px-4 py-2 font-medium group self-start text-xl"
+            className="relative inline-block md:px-4 px-2 md:py-2 py-1 font-medium group self-start md:text-xl text-lg"
           >
             <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-2 translate-y-2 bg-gray-900 group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
             <span className="absolute inset-0 w-full h-full bg-white border-2 border-gray-900 group-hover:bg-black"></span>
