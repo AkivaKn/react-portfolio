@@ -1,4 +1,4 @@
-import Intro from "./Intro";
+import DesktopIntro from "./DesktopIntro";
 import SkillsCarousel from "./SkillsCarousel";
 
 export default function DesktopNavbar() {
@@ -6,7 +6,7 @@ export default function DesktopNavbar() {
     <div className="max-md:hidden w-1/5">
       <div className="fixed inset-y-0 w-1/5 bg-gray-800 h-screen">
         <div className="h-2/5 flex items-center justify-center text-white bg-gray-900">
-          <Intro />
+          <DesktopIntro />
         </div>
         <nav className="flex flex-col h-2/5 items-center justify-center space-y-6">
           <a

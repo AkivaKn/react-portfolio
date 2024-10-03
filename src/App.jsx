@@ -15,7 +15,7 @@ export default function App() {
         showMobileMenu={showMobileMenu}
       />
       {showMobileMenu && (
-        <div className="fixed w-full inset-x-0 top-20">
+        <div className="fixed w-full inset-x-0 top-20 z-10">
           <MobileMenu setShowMobileMenu={setShowMobileMenu} />
         </div>
       )}

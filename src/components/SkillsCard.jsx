@@ -1,6 +1,6 @@
 export default function SkillsCard({ skillSet }) {
   return (
-    <div className="bg-white shadow-lg rounded-xl p-4 text-center">
+    <div className="bg-gray-100 shadow-lg rounded-xl p-4 text-center">
       <h4 className="text-lg md:text-xl font-bold mb-4 text-gray-800 border-b-2 border-gray-300 pb-2">
         {skillSet.title}
       </h4>

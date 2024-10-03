@@ -1,1 +1,0 @@
-What You Looking App? makes exploring fun and informative, allowing users to scan their surroundings with their camera feed and see points of interest (POIs) in Augmented Reality. Users can save POIs, as well as see further imformation such as distance, ratings and reviews. The app was built in React Native (TypeScript), using ViroReact to integrate Augmented Reality.

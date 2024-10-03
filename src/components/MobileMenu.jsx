@@ -6,7 +6,7 @@ export default function MobileMenu({ setShowMobileMenu }) {
   return (
     <nav className="flex flex-col w-full bg-gray-800 text-center space-y-3 justify-center py-3">
       <a
-        href="#intro"
+        href="#home"
         onClick={closeMenu}
         className="text-white text-lg font-medium"
       >

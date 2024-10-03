@@ -95,12 +95,12 @@ export default function AboutMe() {
   return (
     <div className="min-h-screen flex flex-col max-md:-mt-20" id="about">
       <div className="w-full min-h-20 md:hidden"></div>
-      <div className="flex flex-col min-h-[calc(100vh-96px)] justify-between w-full md:p-10 p-5">
-        <h2 className="md:text-4xl text-xl font-extrabold text-gray-800 md:mb-5 mb-2">
+      <div className="flex flex-col min-h-[calc(100vh-96px)] justify-center w-full md:p-10 p-5">
+        <h2 className="md:text-4xl text-2xl font-extrabold text-gray-800 md:mb-8 mb-4">
           About
         </h2>
 
-        <p className="md:text-lg text-sm text-gray-800 leading-relaxed mb-2">
+        <p className="md:text-lg text-base text-gray-800 leading-relaxed md:mb-8 mb-4">
           I&apos;ve always loved creating things and have a natural draw to
           problem solving, especially when it involves technology. After
           discovering a passion for coding, I took the leap and enrolled in a
@@ -111,7 +111,7 @@ export default function AboutMe() {
           project, troubleshooting a bug, or building an API, I&apos;m always
           ready for a new challenge.
         </p>
-        <div className="justify-center items-center mb-4">
+        <div className="justify-center items-center mb-4 md:mb-8">
           <SkillsCard skillSet={skillsData[currentSkillSet]} />
         </div>
         <div className="text-center">

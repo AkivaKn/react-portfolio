@@ -12,9 +12,9 @@ export default function ProjectCard({
   return (
     <li className="flex max-md:flex-col text-gray-800 mb-10 pb-10 border-b-2 border-gray-500">
       <div className="flex flex-col justify-center">
-        <h5 className="md:text-xl text-base font-bold">{projectType}</h5>
-        <h4 className="md:text-3xl text-lg font-bold md:mb-2">{title}</h4>
-        <div className="flex-wrap flex">
+        <h4 className="md:text-3xl text-xl font-bold md:mb-2 mb-1">{title}</h4>
+        <h5 className="md:text-xl text-base md:mb-2 mb-1">{projectType}</h5>
+        <div className="flex-wrap flex md:mb-2 mb-1">
           {skills.map((skill, index) => {
             return (
               <span
@@ -26,7 +26,7 @@ export default function ProjectCard({
             );
           })}
         </div>
-        <p className="md:text-lg text-sm text-gray-800 leading-relaxed md:mb-4 mb-2">{`${description}`}</p>
+        <p className="md:text-lg text-sm text-gray-800 leading-relaxed md:mb-4 mb-2">{description}</p>
         <div className="md:mb-4 mb-2">
           {gitHubURL && (
             <a
