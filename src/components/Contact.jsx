@@ -5,10 +5,10 @@ import ContactForm from "./ContactForm";
 export default function Contact() {
   return (
     <div
-      className="w-full md:px-10 p-5 max-md:-mt-20 flex flex-col items-center"
+      className="w-full md:px-10 p-5 -mt-20 md:mt-0 landscape-mobile:-mt-20 flex flex-col items-center"
       id="contact"
     >
-      <div className="w-full h-20 md:hidden"></div>
+      <div className="w-full h-20 md:hidden landscape-mobile:block"></div>
       <h2 className="md:text-3xl text-lg font-extrabold text-gray-800 mb-3">
         Let&apos;s connect!
       </h2>

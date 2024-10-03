@@ -3,8 +3,8 @@ import { MdEmail } from "react-icons/md";
 
 export default function MobileIntro() {
   return (
-    <div className="w-full max-md:h-screen flex flex-col justify-center items-center md:hidden" id="home">
-      <div className="w-full min-h-20 md:hidden"></div>
+    <div className="md:hidden landscape-mobile:flex w-full min-h-screen flex flex-col justify-center items-center py-10" id="home">
+      <div className="w-full min-h-20"></div>
       <img src="/images/profile.jpg" alt="profile picture" className="rounded-3xl h-44 w-36 mb-2 object-cover"/>
       <h1 className="text-2xl my-1">Hi, I&apos;m Akiva</h1>
       <h2 className="text-xl my-1 text-center">Junior Software Developer</h2>

@@ -5,6 +5,9 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      screens: {
+        'landscape-mobile': { 'raw': '(max-height: 700px) and (orientation: landscape)' }
+      }
     },
   },
   plugins: [],

@@ -10,7 +10,7 @@ export default function ProjectCard({
   demoURL,
 }) {
   return (
-    <li className="flex max-md:flex-col text-gray-800 mb-10 pb-10 border-b-2 border-gray-500">
+    <li className="flex-col md:flex-row text-gray-800 mb-10 pb-10 border-b-2 border-gray-500">
       <div className="flex flex-col justify-center">
         <h4 className="md:text-3xl text-xl font-bold md:mb-2 mb-1">{title}</h4>
         <h5 className="md:text-xl text-base md:mb-2 mb-1">{projectType}</h5>

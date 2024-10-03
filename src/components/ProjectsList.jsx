@@ -2,8 +2,8 @@ import ProjectCard from "./ProjectCard";
 import { projects } from "../assets/projects/projects.json";
 export default function ProjectsList() {
   return (
-    <div className="w-full md:px-10 p-5 max-md:-mt-20" id="projects">
-      <div className="w-full h-20 md:hidden"></div>
+    <div className="w-full md:px-10 p-5 -mt-20 md:mt-0 landscape-mobile:-mt-20" id="projects">
+      <div className="w-full h-20 md:hidden landscape-mobile:block"></div>
       <h2 className="md:text-4xl text-2xl font-extrabold text-gray-800 md:mb-8 mb-4">Projects</h2>
       <ul>
         {projects.map((project, index) => {

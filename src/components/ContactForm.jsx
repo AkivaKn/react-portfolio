@@ -29,7 +29,7 @@ export default function ContactForm() {
         setErrors(formErrors);
       } else {
         await sendEmail(e.target);
-        alert("Your message has been sent!");
+        alert("Thank you! Your message has been sent!");
         setFormInputs({
           from_name: "",
           from_email: "",

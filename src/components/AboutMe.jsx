@@ -93,8 +93,8 @@ export default function AboutMe() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col max-md:-mt-20" id="about">
-      <div className="w-full min-h-20 md:hidden"></div>
+    <div className="min-h-screen flex flex-col -mt-20 md:mt-0 landscape-mobile:-mt-20" id="about">
+      <div className="w-full min-h-20 md:hidden landscape-mobile:block"></div>
       <div className="flex flex-col min-h-[calc(100vh-96px)] justify-center w-full md:p-10 p-5">
         <h2 className="md:text-4xl text-2xl font-extrabold text-gray-800 md:mb-8 mb-4">
           About

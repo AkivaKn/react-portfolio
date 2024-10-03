@@ -6,7 +6,7 @@ import ProjectsList from "./ProjectsList";
 export default function Home() {
   return (
     <>
-        <MobileIntro />
+      <MobileIntro />
       <AboutMe />
       <ProjectsList />
       <Contact />

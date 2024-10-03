@@ -29,11 +29,11 @@ import {
 export default function SkillsCarousel() {
   const responsive = {
     desktop: {
-      breakpoint: { max: 4000, min: 769 },
+      breakpoint: { max: 4000, min: 1101 },
       items: 3,
     },
     mobile: {
-      breakpoint: { max: 768, min: 1 },
+      breakpoint: { max: 1100, min: 1 },
       items: 2,
     },
   };
