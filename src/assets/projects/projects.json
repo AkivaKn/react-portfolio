@@ -13,12 +13,12 @@
       "projectId": 2,
       "projectType": "TEAM PROJECT",
       "title": "Where to Go",
-      "description": "Where to Go enables users to easily search for and organise travel itineraries based on their preferences. Users can share and explore itineraries, comment and vote on trips, and filter by budget, location, or trip length. The app is built with Next.js and styled using TailwindCSS, utilising Vercel Postgres and Vercel Blob for storage. The live site is hosted on Vercel.",
+      "description": "Where to Go enables users to easily search for and organise travel itineraries based on their preferences. Users can share and explore itineraries, comment and vote on trips, and filter by budget, location, or trip length. The app is built with Next.js and styled using Tailwind CSS, utilising Vercel Postgres and Vercel Blob for storage. The live site is hosted on Vercel.",
       "projectURL": "https://travel-app-vert-five.vercel.app/",
       "gitHubURL": "https://github.com/AkivaKn/travel_app",
       "demoURL": "https://youtu.be/KovFLKyPz5Y",
       "imageURL": "/images/where-to-go.jpg",
-      "skills": ["JavaScript", "Next.js", "TailwindCSS", "PSQL", "Vercel"]
+      "skills": ["JavaScript", "Next.js", "Tailwind CSS", "PSQL", "Vercel"]
     },
     {
       "projectId": 3,
