@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradio-container {
+  width: 75vw; 
+}
+
+@media (min-width: 768px) { /* Tailwind's 'md' breakpoint */
+  .gradio-container {
+    width: 50vw;
+  }
+}
