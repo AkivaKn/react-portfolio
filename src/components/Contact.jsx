@@ -35,6 +35,7 @@ export default function Contact() {
           <MdEmail />
         </a>
       </div>
+      <gradio-app className='w-1/2'  src="https://akivakauf-career-agent.hf.space"></gradio-app>
       <ContactForm />
     </div>
   );
