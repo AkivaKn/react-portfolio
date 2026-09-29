@@ -8,17 +8,21 @@ import {
   FaHtml5,
   FaNodeJs,
   FaReact,
+  FaServer,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiNextjsFill } from "react-icons/ri";
 import {
   SiCsharp,
   SiDart,
+  SiDocker,
   SiDotnet,
   SiExpress,
   SiFlutter,
+  SiGo,
   SiMicrosoftazure,
   SiNetlify,
+  SiPython,
   SiRender,
   SiTailwindcss,
   SiTypescript,
@@ -30,8 +34,10 @@ export default function AboutMe() {
     {
       title: "Languages",
       skills: [
-        { name: "JavaScript", icon: <IoLogoJavascript /> },
         { name: "TypeScript", icon: <SiTypescript /> },
+        { name: "JavaScript", icon: <IoLogoJavascript /> },
+        { name: "Go", icon: <SiGo /> },
+        { name: "Python", icon: <SiPython /> },
         { name: "HTML", icon: <FaHtml5 /> },
         { name: "CSS", icon: <FaCss3Alt /> },
         { name: "C#", icon: <SiCsharp /> },
@@ -43,8 +49,8 @@ export default function AboutMe() {
       skills: [
         { name: "React", icon: <FaReact /> },
         { name: "React Native", icon: <FaReact /> },
-        { name: "Flutter", icon: <SiFlutter /> },
         { name: "Next.js", icon: <RiNextjsFill /> },
+        { name: "Flutter", icon: <SiFlutter /> },
         { name: "ASP.NET", icon: <SiDotnet /> },
         { name: "Tailwind CSS", icon: <SiTailwindcss /> },
         { name: "Bootstrap", icon: <FaBootstrap /> },
@@ -54,18 +60,20 @@ export default function AboutMe() {
       title: "Backend",
       skills: [
         { name: "Node.js", icon: <FaNodeJs /> },
+        { name: "Express.js", icon: <SiExpress /> },
         { name: "PostgreSQL", icon: <BiLogoPostgresql /> },
         { name: "SQL", icon: <FaDatabase /> },
-        { name: "Express.js", icon: <SiExpress /> },
+        { name: "REST APIs", icon: <FaServer /> },
       ],
     },
     {
-      title: "Hosting",
+      title: "Tools & Cloud",
       skills: [
+        { name: "Docker", icon: <SiDocker /> },
+        { name: "Azure", icon: <SiMicrosoftazure /> },
         { name: "Vercel", icon: <SiVercel /> },
         { name: "Netlify", icon: <SiNetlify /> },
         { name: "Render", icon: <SiRender /> },
-        { name: "Azure", icon: <SiMicrosoftazure /> },
       ],
     },
   ];
@@ -101,15 +109,14 @@ export default function AboutMe() {
         </h2>
 
         <p className="md:text-lg text-base text-gray-800 leading-relaxed md:mb-8 mb-4">
-          I&apos;ve always loved creating things and have a natural draw to
-          problem solving, especially when it involves technology. After
-          discovering a passion for coding, I took the leap and enrolled in a
-          Software Development bootcamp, an experience I thoroughly enjoyed.
-          Since graduating, I&apos;ve been committed to growing my skills,
-          constantly learning new technologies while deepening my understanding
-          of the ones I&apos;ve already mastered. Whether it&apos;s a new
-          project, troubleshooting a bug, or building an API, I&apos;m always
-          ready for a new challenge.
+          I&apos;m a Software Engineer at BearTech, where I build fullstack web
+          and mobile products with TypeScript, React, Go and Python. I got into
+          coding through a freeCodeCamp course, and that interest grew into a
+          career change via the Northcoders bootcamp. Day to day I work on new
+          features and existing systems, and I&apos;m involved in architecture
+          decisions for services, APIs and data models. Away from work I&apos;m
+          happiest learning something new, whether that&apos;s Spanish or a
+          side project like the ones on this site.
         </p>
         <div className="justify-center items-center mb-4 md:mb-8">
           <SkillsCard skillSet={skillsData[currentSkillSet]} />
