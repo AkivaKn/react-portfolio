@@ -1,6 +1,16 @@
 {
   "projects": [
     {
+      "projectId": 6,
+      "projectType": "PERSONAL PROJECT",
+      "title": "Boggle",
+      "description": "A real-time multiplayer Boggle game. Players can create or join a lobby and play together on a shared board, with moves updating instantly for everyone in the room over WebSockets. The frontend is built with React, TypeScript, Vite and Tailwind CSS, and the API is written in Go using Gin, backed by PostgreSQL.",
+      "projectURL": "https://bogglefe.netlify.app/",
+      "gitHubURL": "https://github.com/AkivaKn/boggle_fe",
+      "imageURL": "/images/boggle.png",
+      "skills": ["Go", "TypeScript", "React", "WebSockets", "Tailwind CSS", "PostgreSQL"]
+    },
+    {
       "projectId": 1,
       "projectType": "PERSONAL PROJECT",
       "title": "Job Tracker",
