@@ -35,7 +35,19 @@ export default function Contact() {
           <MdEmail />
         </a>
       </div>
-      <gradio-app className='w-1/2'  src="https://akivakauf-career-agent.hf.space"></gradio-app>
+      <h3 className="md:text-2xl text-lg font-bold text-gray-800 mt-6 mb-2">
+        Ask my AI assistant
+      </h3>
+      <p className="md:text-lg text-sm text-gray-800 text-center max-w-xl mb-4">
+        An AI assistant that can answer questions about my background, skills
+        and experience. Ask it anything about my work, or use the form below to
+        get in touch.
+      </p>
+      <iframe
+        src="https://akivakauf-career-agent.hf.space"
+        title="Chat with my AI career assistant"
+        className="w-full md:w-1/2 h-[700px] mb-8"
+      ></iframe>
       <ContactForm />
     </div>
   );
