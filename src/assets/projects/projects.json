@@ -3,11 +3,11 @@
     {
       "projectId": 6,
       "projectType": "PERSONAL PROJECT",
-      "title": "Boggle",
-      "description": "A real-time multiplayer Boggle game. Players can create or join a lobby and play together on a shared board, with moves updating instantly for everyone in the room over WebSockets. The frontend is built with React, TypeScript, Vite and Tailwind CSS, and the API is written in Go using Gin, backed by PostgreSQL.",
-      "projectURL": "https://bogglefe.netlify.app/",
-      "gitHubURL": "https://github.com/AkivaKn/boggle_fe",
-      "imageURL": "/images/boggle.png",
+      "title": "Games Arcade",
+      "description": "A multi-game arcade site featuring Word Grid, The Money Ladder, Out of Line, Misclue, Forehead Charades, and Truth or Dare. Includes real-time multiplayer rooms over WebSockets alongside pass-the-phone party games. The frontend is built with React, TypeScript, Vite and Tailwind CSS, and the API is written in Go using Gin, backed by PostgreSQL.",
+      "projectURL": "https://games.akivakaufman.co.uk/",
+      "gitHubURL": "https://github.com/AkivaKn/games_fe",
+      "imageURL": "/images/games-arcade.png",
       "skills": ["Go", "TypeScript", "React", "WebSockets", "Tailwind CSS", "PostgreSQL"]
     },
     {
